@@ -1,0 +1,326 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+@font-face {
+  font-family: muliLight;
+  src: url(./assets/fonts/Muli-Light.woff);
+}
+
+@font-face {
+  font-family: muliBold;
+  src: url(./assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+  font-family: merri;
+  src: url(./assets/fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(195, 146, 250);
+  background: linear-gradient(
+    133deg,
+    rgba(195, 146, 250, 1) 18%,
+    rgba(144, 141, 215, 1) 100%
+  );
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box {
+  width: 55%;
+  height: 70%;
+  border-radius: 40px;
+  background: white;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+
+.titleBox {
+  width: 50%;
+}
+
+.titleBox h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  width: 180px;
+  margin-left: 30%;
+  margin-top: 25%;
+}
+
+.buttonsBox {
+  width: 50%;
+}
+
+.buttons {
+  width: 60%;
+  height: 30%;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.buttons button {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 3%;
+  border: none;
+  outline: none;
+  background: none;
+  border: 2px solid #dedee6;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+  border: 2px solid rgba(160, 100, 224, 0.516);
+}
+
+.buttons img {
+  margin-right: 3%;
+}
+
+.divider {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.MuiDivider-root::before,
+.MuiDivider-root::after {
+  border-top: 2px solid #9d9db259 !important;
+}
+
+.MuiDivider-wrapper {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #9d9db2d9;
+}
+
+.emailBox {
+  width: 60%;
+  height: 30%;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+.emailBox p {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 2% !important;
+}
+
+.emailBox input {
+  width: 94%;
+  height: 25%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 !important;
+  padding-left: 5% !important;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px solid #dedee6;
+  transition: 0.3s ease-in-out;
+}
+
+.emailBox input:focus {
+  border: 2px solid rgba(160, 100, 224, 0.516);
+}
+
+.emailBox button {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 3%;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 3%;
+  background: rgb(159, 100, 224);
+  background: linear-gradient(
+    133deg,
+    rgba(159, 100, 224, 1) 18%,
+    rgba(93, 94, 181, 1) 100%
+  );
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.emailBox button:hover {
+  transform: scale(1.02);
+}
+
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #645d93;
+}
+
+.designBy p {
+  width: 100% !important;
+  font-family: mk;
+  font-size: 30px !important;
+}
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px !important;
+}
+
+.day {
+  font-family: day !important;
+}
+
+@media screen and (max-width: 992px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: none;
+    justify-content: center;
+    display: block;
+    margin-bottom: 150px;
+    overflow: hidden;
+  }
+
+  .titleBox {
+    width: 100%;
+    margin-top: 40%;
+    text-align: center;
+  }
+
+  .titleBox h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 26%;
+    margin-top: 25%;
+  }
+
+  .buttonsBox {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons {
+    width: 90%;
+    margin-top: 12%;
+    margin-left: 0%;
+  }
+
+  .buttons button {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 3%;
+    border: none;
+    margin-left: 5%;
+    outline: none;
+    background: white;
+    border: 2px solid #dedee6;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s ease-in-out;
+  }
+
+  .divider {
+    width: 89%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+
+  .MuiDivider-root::before,
+  .MuiDivider-root::after {
+    border-top: 2px solid #f5f5ff59 !important;
+  }
+
+  .MuiDivider-wrapper {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ececffd9;
+  }
+
+  .emailBox {
+    width: 100%;
+    margin-left: 0;
+  }
+  .emailBox p {
+    margin-left: 4%;
+  }
+  
+  .emailBox input {
+    width: 86%;
+    height: 50px;
+    margin-left: 4%;
+} 
+
+  .emailBox button {
+    width: 92%;
+    height: 50px;
+    margin-left: 4%;
+  }
+
+  .emailBox button:hover {
+    transform: scale(1);
+  }
+
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 21px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
