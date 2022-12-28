@@ -1,4 +1,4 @@
-# UIDesignDay9 - Sign In
+# Sign In
 
 ## Technologies and tools
 
